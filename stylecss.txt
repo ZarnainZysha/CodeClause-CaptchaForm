@@ -1,0 +1,65 @@
+body {
+    background-color: #020204;
+    font-family: 'Roboto', sans-serif;
+	 color: white;
+}
+
+
+#captchaBackground {
+    height: 120px;
+    width: 220px;
+    background-color: ;
+    display: flex;
+    align-items: ;
+    justify-content: ;
+    flex-direction: column;
+
+}
+
+
+#captcha {
+	  
+    height: 50%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: ;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #ffffff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #ffffff;
+    border: ;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+	width:160px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
